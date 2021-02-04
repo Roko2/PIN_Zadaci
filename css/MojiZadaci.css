@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
+body{
+	font-family: 'Open Sans',sans-serif;
+	/*boje->crna #000000, zuta #FCA311,tamno plavija #14213D,platina #E5E5E5,bijela #FFFFFF*/
+	min-height: 100vh !important;
+ 	margin: 0 !important
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Merriweather',serif;
+	margin-top: 5px !important;
+}
+
+.btn{
+	margin-right: 5px !important;
+}
+.odabrani:hover{
+	background-color:#007bff !important;
+	color: white !important;
+	border-radius: 4px !important;
+	transition: 0.3s !important;
+	cursor: pointer;
+  }
+  #tablica-zadaci{
+	border:1px solid white !important;
+	text-align: center !important;
+	margin-top: 2% !important;
+  }
+  .btnTablica {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 13px;
+	cursor: pointer;
+	margin-top: 8% !important;
+	margin-bottom: -12% !important;
+  }
+  .btnTablica:hover {
+	background-color: RoyalBlue;
+  }
+  .dodaj{
+	  font-size: 15px !important;
+  } 
+  .prikaz{
+	  display: inline-block !important;
+	  height: 100px !important;
+  }
+  #pretragaNatpis{
+	  margin-top: 7% !important;
+	  margin-right: 7% !important;
+  }
+  .odjava{
+	min-width: 5.5rem !important;
+	max-width: 5rem !important;
+	margin: 0 auto !important;
+	max-height: 4em !important;
+	z-index: 999 !important;
+  }
+  .odjaviSe{
+	font-size: 15px !important;
+	text-decoration: none !important; 
+	color:black !important;
+  }
+  .odjava:hover{
+	background-color: rgb(104, 172, 211) !important;
+	transition: 0.3s !important;
+	cursor: pointer;
+}
+#tostMojiZadaci{
+    position: relative !important; 
+    min-height: 200px !important;
+}
+.toast{
+    position: absolute !important; 
+    bottom: 100% !important; 
+    right: 0 !important;
+}
+.sadrzaj{
+	min-height: 100% !important;
+	margin-bottom: -50px !important;
+  }
+  .footer,
+  .poguraj {
+	height: 50px !important;
+  }
+  #zeleniCanvas{
+    width: 15px !important;
+    height: 15px !important;
+    background-color: green !important;
+}
+.form-group small {
+	color: #e74c3c !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 0 !important ;
+	visibility: hidden !important;
+}
+.form-group.success input {
+	border-color: #2ecc71 !important;
+}
+.form-group.error input {
+	border-color: #e74c3c !important;
+}
+.form-group.error small {
+	visibility: visible !important;
+}
+.sredinaNapomene{
+	text-align: center !important;
+}
+.obavljeniZadatakMojiZadaci{
+	background-color: green !important;
+}
+.gumbAzuriraj:hover{
+	background-color: #1e90ff !important;
+}
+.gumbAzuriraj{
+	cursor: context-menu !important;
+	opacity: 0.5 !important;
+}

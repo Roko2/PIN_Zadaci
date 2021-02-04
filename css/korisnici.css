@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: lightblue !important;
+
+	/*boje->crna #000000, zuta #FCA311,tamno plavija #14213D,platina #E5E5E5,bijela #FFFFFF*/
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Merriweather',serif;
+	margin-top: 5px !important;
+}
+.odabrani:hover{
+	background-color: #007bff !important;
+	border-radius: 4px !important;
+	transition: 0.3s !important;
+	cursor: pointer;
+	max-width: 10rem !important;	
+  }
+#tablica-korisnici{
+	border: 2px !important;
+	margin:2px !important;
+	border-collapse: border !important;
+}
+.form-control{
+	max-width: 300px !important;
+}
+label{
+	font-size: 18px !important;
+}	
+.odjava:hover{
+	background-color: rgb(104, 172, 211) !important;
+	transition: 0.3s !important;
+	cursor: pointer;
+}
+
+#btnNav{
+	margin-right: 5px !important;
+}
+.odjava{
+	min-width: 5.5rem !important;
+	max-width: 5rem !important;
+	margin: 0 auto !important;
+}
+ul{
+	max-width: 9rem !important;
+}
+.container{
+	padding-bottom: 60px !important;
+}

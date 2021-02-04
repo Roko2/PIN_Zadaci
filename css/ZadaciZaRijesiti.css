@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
+html, body{
+    font-family: 'Open Sans',sans-serif;
+   height: 100% !;
+   margin: 0 !important;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Merriweather',serif;
+}
+#crveniCanvas{
+    width: 12px !important;
+    height: 12px !important;
+    background-color: red !important;
+    border-radius: 1px !important;
+}
+#zeleniCanvas{
+    width: 12px !important;
+    height: 12px !important;
+    background-color: green !important;
+    border-radius: 1px !important;
+}
+.card-header:hover{
+    color: black !important;
+    cursor:  pointer !important;
+    background-color: lightblue;
+}
+.card{
+    color: black !important;
+    width: 75% !important;
+}
+.dropdown-menu{
+    min-width: 5.5rem !important;
+    max-width: 5rem !important;
+    margin: 0 auto !important;
+    max-height: 3em !important;
+}
+.dropdown-menu:hover{
+    background-color: rgb(104, 172, 211) !important;
+	transition: 0.3s !important;
+	cursor: pointer;
+}
+.nav-item{
+    cursor: pointer;
+}
+.nav-item:hover{
+    background-color: #007bff!important;
+    color: white !important;
+}
+.odjaviSe{
+    font-size: 15px !important;
+    text-decoration: none !important; 
+    color:black !important;
+}
+.toast{
+    position: absolute !important; 
+    bottom: 100% !important; 
+    right: 0 !important;
+}
+
+#tost{
+    position: relative !important; 
+    min-height: 200px !important;
+}
+.cardObavljeni{
+background-color: rgb(81, 231, 81) !important;
+}
+.cardNeObavljeni{
+    background-color: #e25460 !important;
+}
+.cardNeObavljeni:hover{
+    color: white !important;
+}
+.cardObavljeni:hover{
+    color:  white !important;
+}
+#blok{
+    display: none !important;
+}
+.sadrzaj{
+  min-height: 100% !important;
+  margin-bottom: -50px !important;
+}
+.footer,
+.poguraj {
+  height: 50px !important;
+}
+.istekaoTekst{
+    display:block !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+.nijeIstekao{
+display: none !important;
+}
+.istekaoZadatakHeader{
+    background-color: #e25460 !important;
+}
+#tostProslijedi{
+    position: relative !important; 
+    min-height: 200px !important;
+}
+.toast{
+    position: absolute !important; 
+    bottom: 100% !important; 
+    right: 0 !important;
+}
+.accordionRjesavanje{
+    text-align: center !important;
+    margin: 0 auto !important;
+    margin-top: 5% !important;
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
+body{
+  font-family: 'Open Sans',sans-serif;
+ margin: 0 !important;
+ height:  100% !important;
+	/*boje->crna #000000, zuta #FCA311,tamno plavija #14213D,platina #E5E5E5,bijela #FFFFFF*/
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Merriweather',serif;
+}
+
+.parallax {
+  background-image: url("../img/macro.jpeg");
+  min-height: 300px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+button{
+	margin-right:5px !important;
+}
+.link:hover {
+  background-color:tomato !important;
+  border: none !important;
+  color: white !important;
+  transition: 0.3s !important;
+}
+.dropdown-menu{
+  min-width: 5.5rem !important;
+  max-width: 5rem !important;
+  margin: 0 auto !important;
+  max-height: 4em !important;
+}
+span{
+  font-family: 'Merriweather',serif;
+  font-size: 20px;
+}
+.odabrani:hover{
+  background-color:#007bff !important;
+  color: white !important;
+  border-radius: 4px !important;
+  transition: 0.3s !important;
+  cursor: pointer;
+}
+.naslovi{
+  font-weight: bold !important;
+}
+
+.col-sm{
+  line-height: 35px !important;
+}
+.link{
+  text-decoration: none !important;
+  color: black !important;
+  cursor: pointer;
+  text-align: center;
+}
+.odjava:hover{
+	background-color: rgb(104, 172, 211) !important;
+	transition: 0.3s !important;
+	cursor: pointer;
+}
+.row{
+  height: 250px !important;
+}
+.naslov{
+  color: white !important;
+  font-size: 65px !important;
+  text-align:  center !important;
+  padding: 95px 0 !important;
+}
+.odjaviSe{
+  font-size: 15px !important;
+  text-decoration: none !important; 
+  color:black !important;
+}
+#navbar{
+  z-index:999 !important;
+}
+.odjava{
+  z-index: 999 !important;
+}
+@media (max-width:960px){
+  .footer {
+    padding-top: 25% !important;
+  }
+}
+.container{
+  padding-bottom: 10% !important;
+}
+.sadrzaj{
+  min-height: 100% !important;
+  margin-bottom: -50px !important;
+}
+.footer,
+.poguraj {
+  height: 50px !important;
+}

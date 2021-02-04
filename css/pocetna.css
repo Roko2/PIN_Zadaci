@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
+body{
+	font-family: 'Open Sans',sans-serif;
+	/*boje->crna #000000, zuta #FCA311,tamno plavija #14213D,platina #E5E5E5,bijela #FFFFFF*/
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Merriweather',serif;
+}
+body{
+  background-image: url("../img/naslovna2.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ZabLozinka:hover{
+  color:rgb(223, 21, 7);
+  cursor: pointer;
+}
+.jumbotron{
+  background-color: #E5E5E5 !important;
+  margin-top: 1% !important;
+}
+#logo{
+  width:7% !important;
+  height:7% !important; 
+  margin-top: 2% !important;
+}
+#gumbPrijava{
+  margin-top: 10px !important;
+  background-color: #CA7D02 !important;
+}
+.registracijaDiv{
+  margin-bottom:0 !important;
+  border: 1px solid grey !important;
+  background-color: #E5E5E5 !important;
+}
+#klik{
+  display: none !important;
+}
+.form-group small {
+	color: #e74c3c !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 0 !important ;
+	visibility: hidden !important;
+}
+.form-group.success input {
+	border-color: #2ecc71 !important;
+}
+
+.form-group.error input {
+	border-color: #e74c3c !important;
+}
+.form-group.error small {
+	visibility: visible !important;
+}
+.ZabLozinka{
+  width: 10rem !important;
+}
