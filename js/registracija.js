@@ -42,7 +42,7 @@ function ProvjeriUnose(){
   } 
   
   else if(ime.value[0] != ime.value[0].toUpperCase()){
-    PostaviGresku(ime,'Ime ne može počinjati prvim velikim slovom');
+    PostaviGresku(ime,'Ime ne može počinjati prvim malim slovom');
     valid=false;
   }
   //regex g-globalno i-case sensitive, u0161\u0111\u010D\u0107\u017E  hrvatska slova č,ć,š,đ,ž,/t brojevi
@@ -63,7 +63,7 @@ function ProvjeriUnose(){
     valid=false;
   }
   else if(prezime.value[0] != prezime.value[0].toUpperCase()){
-    PostaviGresku(prezime,'Prezime ne može počinjati prvim velikim slovom');
+    PostaviGresku(prezime,'Prezime ne može počinjati prvim malim slovom');
     valid=false;
   }
   else {
