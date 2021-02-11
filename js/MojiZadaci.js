@@ -382,6 +382,7 @@ function Potvrda(sZadatakKey){
       ObrisiStatus(sZadatakKey);
       ProvjeriTablicu();
       ProvjeriZadatkeTablice();
+      ProvjeriNapomene();
  }
 }
 
