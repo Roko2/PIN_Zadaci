@@ -1,4 +1,14 @@
-
+function getURLParameter(name) {
+	return decodeURI((RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]);
+}
+function hideURLParams() {
+	var hide = ['korisnik_id'];
+	for(var h in hide) {
+		if(getURLParameter(h)) {
+			history.replaceState(null, document.getElementsByTagName("title")[0].innerHTML, window.location.pathname);
+		}
+	}
+}
 var sUrl = window.location.href ;
 var oUrl = new URL(sUrl);
 var sKorisnik = oUrl.searchParams.get("korisnik_id");
@@ -42,3 +52,4 @@ function IstaStranica(){
       window.location.href = url;
   }
      
+  hideURLParams();

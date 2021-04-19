@@ -1,3 +1,4 @@
+
 var inputLozinka = document.getElementById("inptLozinka");
 var inputEmail=document.getElementById("inptEmail");
 inputLozinka.addEventListener("keyup", function(event) {
