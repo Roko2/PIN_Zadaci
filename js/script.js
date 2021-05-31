@@ -51,5 +51,9 @@ function IstaStranica(){
     var url = "pocetna.html";
       window.location.href = url;
   }
-     
-  hideURLParams();
+    $(document).ready(function(){
+      var datum=new Date();
+      var trenutnaGodina=datum.getFullYear();
+      var row="<b>© Copyright "+trenutnaGodina+"</b>";
+      $("#copyright").append(row);
+    });
