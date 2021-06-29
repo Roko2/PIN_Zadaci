@@ -100,11 +100,6 @@ display: none !important;
     position: relative !important; 
     min-height: 200px !important;
 }
-.toast{
-    position: absolute !important; 
-    bottom: 100% !important; 
-    right: 0 !important;
-}
 .accordionRjesavanje{
     text-align: center !important;
     margin: 0 auto !important;

@@ -504,7 +504,6 @@ function ObavijestProslijedena(oTrenutni,oProslijedeni){
     })  
   var poruka='<p>Zadatak je promijenio korisnika iz '+trenutniKorisnik+' u '+noviKorisnik+'</p>';
   obavijest.find('#upisi').append(poruka);
-  console.log(trenutniKorisnik+' '+noviKorisnik);
   });
   $("#obavijestProsljedivanje").toast('show');
 }
